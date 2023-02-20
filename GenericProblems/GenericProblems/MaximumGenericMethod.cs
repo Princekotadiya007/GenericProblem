@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace GenericProblems
 {
-    public class MaximumFloats
+    public class MaximumGenericMethod
     {
-        public static double MaximumFloatsNumber(double firstValue, double secondValue, double thirdValue)
+        public static T GenericMethod<T>(T firstValue, T secondValue, T thirdValue) where T : IComparable
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
-               firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
-               firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) >= 0)
+              firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
+              firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) >= 0)
             {
                 return firstValue;
             }

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MaximumFloats.cs" />
+    <Compile Include="MaximumGenericClass.cs" />
     <Compile Include="MaximumGenericMethod.cs" />
     <Compile Include="MaximumInteger.cs" />
     <Compile Include="MaximumString.cs" />

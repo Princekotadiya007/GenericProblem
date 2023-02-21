@@ -1,17 +1,16 @@
+using GenericProblems;
+
 namespace FindsMaxUnits
 {
     public class Tests
     {
-        MaximumInteger<int> maximumInteger = new MaximumInteger<int>();
-        //[SetUp]
-        //public void Setup()
-        //{
-        //}
+        FindsMaxNumber findsMax = new FindsMaxNumber();
 
         [Test]
-        public void Test1()
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMax()
         {
-            Assert.Pass();
+            int result = findsMax.IntNumber(20, 5, 10);
+            Assert.AreEqual(10, result);
         }
     }
 }

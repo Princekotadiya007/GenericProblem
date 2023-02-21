@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericProblems
 {
-    internal class FindsMaxNumber
+    public class FindsMaxNumber
     {
         public int IntNumber(int firstNum, int secondNum, int thirdNum)
         {

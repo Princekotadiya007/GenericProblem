@@ -50,11 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FindMaxGeneric.cs" />
-    <Compile Include="MaximumFloats.cs" />
-    <Compile Include="MaximumGenericClass.cs" />
-    <Compile Include="MaximumGenericMethod.cs" />
-    <Compile Include="MaximumInteger.cs" />
-    <Compile Include="MaximumString.cs" />
+    <Compile Include="FindsMaxNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

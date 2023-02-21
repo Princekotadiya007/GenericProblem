@@ -70,5 +70,11 @@ namespace FindsMaxUnits
             string result = findsMax.String("ajay", "vishal", "karan");
             Assert.AreEqual("vishal", result);
         }
-    }  
+        [Test]
+        public void RefactorGenericClass()
+        {
+            int result = findsMax.GenericClass(20, 25, 30);
+            Assert.AreEqual(30, result);
+        }
+    }
 }

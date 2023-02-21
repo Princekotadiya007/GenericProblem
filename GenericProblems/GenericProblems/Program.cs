@@ -24,7 +24,13 @@ namespace GenericProblems
 
             Console.WriteLine("Maximum String Number");
             Console.WriteLine(findsMax.String("prince", "vishal", "bhavin"));
+            Console.WriteLine("\n");
 
+            Console.WriteLine("Generic Method");
+            Console.WriteLine(FindsMaxNumber.GenericMethod(1,20,34));
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Generic Class");
         }
     }
 }

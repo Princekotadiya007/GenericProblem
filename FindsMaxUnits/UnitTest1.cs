@@ -58,5 +58,11 @@ namespace FindsMaxUnits
             string result = findsMax.String("prince", "pratik", "karan");
             Assert.AreEqual("prince", result);
         }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnSecondMax()
+        {
+            string result = findsMax.String("ajay", "pratik", "karan");
+            Assert.AreEqual("pratik", result);
+        }
     }  
 }

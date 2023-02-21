@@ -2,7 +2,7 @@ using GenericProblems;
 
 namespace FindsMaxUnits
 {
-    public class Tests
+    public class FindMaxTestsInt
     {
         FindsMaxNumber findsMax = new FindsMaxNumber();
 
@@ -24,6 +24,5 @@ namespace FindsMaxUnits
             int result = findsMax.IntNumber(28, 12, 22);
             Assert.AreEqual(28, result);
         }
-
     }
 }

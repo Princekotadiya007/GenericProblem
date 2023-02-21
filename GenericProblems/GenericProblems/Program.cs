@@ -11,20 +11,16 @@ namespace GenericProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Maximum Problem Using Generics ");
-            Console.WriteLine("choose the option");
-            Console.WriteLine("\n1.Maximum Integer");
-            int option = Convert.ToInt32(Console.ReadLine());
-            switch (option)
-            {
-                case 1:
-                    Console.WriteLine("Maximum Integer Number");
-                    FindsMaxNumber findsMax = new FindsMaxNumber();
-                    Console.WriteLine(findsMax.IntNumber(25, 40, 40));
-                    break;
-                default:
-                    Console.WriteLine("Invalied option");
-                    break;
-            }
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Maximum Integer Number");
+            FindsMaxNumber findsMax = new FindsMaxNumber();
+            Console.WriteLine(findsMax.IntNumber(25, 40, 40));
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Maximum Float Number");
+            Console.WriteLine(findsMax.FloatNumber(10.5f, 2.8f, 10.9f));
         }
     }
 }
+

@@ -18,5 +18,12 @@ namespace FindsMaxUnits
             int result = findsMax.IntNumber(15, 2, 12);
             Assert.AreEqual(15, result);
         }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnThirdMax()
+        {
+            int result = findsMax.IntNumber(28, 12, 22);
+            Assert.AreEqual(28, result);
+        }
+
     }
 }

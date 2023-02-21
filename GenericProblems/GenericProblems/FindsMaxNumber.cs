@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericProblems
 {
-    public class FindMaxGeneric<T> where T : IComparable
+    internal class FindsMaxNumber
     {
-        public T GenreicValue(T firstNum, T secondNum, T thirdNum)
+        public int IntNumber(int firstNum, int secondNum, int thirdNum)
         {
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) > 0)
             {
@@ -16,7 +16,7 @@ namespace GenericProblems
             }
             if (secondNum.CompareTo(thirdNum) > 0 && secondNum.CompareTo(firstNum) > 0)
             {
-                return secondNum;   
+                return secondNum;
             }
             if (thirdNum.CompareTo(firstNum) > 0 && thirdNum.CompareTo(secondNum) > 0)
             {

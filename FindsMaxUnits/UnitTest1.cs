@@ -48,4 +48,15 @@ namespace FindsMaxUnits
             Assert.AreEqual(35.7f, result);
         }
     }
+    public class FindMaxTestsString
+    {
+        FindsMaxNumber findsMax = new FindsMaxNumber();
+
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMax()
+        {
+            string result = findsMax.String("prince", "pratik", "karan");
+            Assert.AreEqual("prince", result);
+        }
+    }  
 }

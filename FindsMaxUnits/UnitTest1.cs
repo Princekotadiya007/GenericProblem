@@ -33,7 +33,13 @@ namespace FindsMaxUnits
         public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMax()
         {
             double result = findsMax.FloatNumber(2.5f, 10.5f, 15.7f);
-            Assert.AreEqual(20, result);
+            Assert.AreEqual(15.7f, result);
+        }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnSecondMax()
+        {
+            double result = findsMax.FloatNumber(20.6f, 10.5f, 15.7f);
+            Assert.AreEqual(20.6f, result);
         }
     }
 }

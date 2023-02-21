@@ -25,4 +25,15 @@ namespace FindsMaxUnits
             Assert.AreEqual(28, result);
         }
     }
+    public class FindMaxTestsFloat
+    {
+        FindsMaxNumber findsMax = new FindsMaxNumber();
+
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMax()
+        {
+            double result = findsMax.FloatNumber(2.5f, 10.5f, 15.7f);
+            Assert.AreEqual(20, result);
+        }
+    }
 }

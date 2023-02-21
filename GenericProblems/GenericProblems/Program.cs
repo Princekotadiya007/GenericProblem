@@ -20,6 +20,10 @@ namespace GenericProblems
 
             Console.WriteLine("Maximum Float Number");
             Console.WriteLine(findsMax.FloatNumber(10.5f, 2.8f, 10.9f));
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Maximum String Number");
+            Console.WriteLine(findsMax.String("prince", "vishal", "bhavin"));
         }
     }
 }
